@@ -1,3 +1,4 @@
+//ALEJANDRO ASENCIO GURAU
 $(document).ready(function(){
     // Inicializacion de la lista de proyectos
     let proyectos = JSON.parse(localStorage.getItem("proyectos")) || [];
