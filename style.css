@@ -1,4 +1,4 @@
-/* ======== Estilos generales ======== */
+/*Estilos generales*/
 body {
     font-family: Arial, sans-serif;
     background: #f4f4f4;
@@ -10,7 +10,7 @@ h1, h2 {
     color: #333;
 }
 
-/* ======== Formulario ======== */
+/*Formulario*/
 form {
     background: #fff;
     padding: 15px;
@@ -42,7 +42,7 @@ form button:hover {
     background: #1e5cad;
 }
 
-/* ======== Filtros ======== */
+/*Filtros*/
 #filtros {
     background: #fff;
     padding: 10px 15px;
