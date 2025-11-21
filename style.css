@@ -12,18 +12,31 @@ h1, h2 {
 
 /*Formulario*/
 form {
-    background: #fff;
     padding: 15px;
     border-radius: 5px;
     margin-bottom: 20px;
-    box-shadow: 0 0 5px rgba(0,0,0,0.1);
 }
 
-form input,
-form textarea,
-form select {
-    width: 100%;
+form input{
+    width: 98%;
     padding: 8px;
+    margin: 8px 0;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+form textarea{
+    width: 98%;
+    padding: 8px;
+    margin: 8px 0;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+form select {
+    width: auto;
+    min-width: 120px;
+    padding: 6px 8px;
     margin: 8px 0;
     border-radius: 4px;
     border: 1px solid #ccc;
@@ -36,6 +49,7 @@ form button {
     color: white;
     border-radius: 4px;
     cursor: pointer;
+    display: flex;
 }
 
 form button:hover {
@@ -44,12 +58,9 @@ form button:hover {
 
 /*Filtros*/
 #filtros {
-    background: #fff;
     padding: 10px 15px;
     border-radius: 5px;
     margin-bottom: 20px;
-    box-shadow: 0 0 5px rgba(0,0,0,0.1);
-
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
@@ -96,7 +107,6 @@ form button:hover {
     margin-bottom: 15px;
     border-radius: 5px;
     border-left: 6px solid #2a7ae4;
-    box-shadow: 0 0 4px rgba(0,0,0,0.1);
 }
 
 .proyecto.completada {
